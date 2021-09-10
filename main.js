@@ -1,4 +1,4 @@
-/*(function ($) {
+(function ($) {
     "use strict";
     [ Validate ]
     var name = $('.validate-input input[name="name"]');
@@ -79,8 +79,8 @@
     
     
 
-})(jQuery);*/
-window.addEventListener( "load", function () {
+})(jQuery);
+/*window.addEventListener( "load", function () {
   function sendData() {
 		alert("in send data");
     
@@ -129,4 +129,4 @@ window.addEventListener( "load", function () {
     event.preventDefault();
     sendData();
   } );
-} );
+} );*/
