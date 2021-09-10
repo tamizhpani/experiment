@@ -40,7 +40,8 @@
         e.preventDefault();
       
         $.ajax({
-            url: "https://script.google.com/macros/s/AKfycbxuSCQS7maeU-2N3E7T0fgqGlby5bGOEmLSvmh2/exec",
+            //tamizhpani untitled spreadsheet script: https://script.google.com/macros/s/AKfycbxhFPCiFps9sVxSEN0Zs3HkF3-Q1yNKhXXoMC2s/exec
+            url: "https://script.google.com/macros/s/AKfycbxhFPCiFps9sVxSEN0Zs3HkF3-Q1yNKhXXoMC2s/exec",
             method: "POST",
             dataType: "json",
             data: $(".contact1-form").serialize(),
