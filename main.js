@@ -1,6 +1,6 @@
 (function ($) {
     "use strict";
-    [ Validate ]
+   // [ Validate ]
     var name = $('.validate-input input[name="name"]');
     var email = $('.validate-input input[name="email"]');
     var subject = $('.validate-input input[name="subject"]');
